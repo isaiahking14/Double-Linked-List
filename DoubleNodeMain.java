@@ -5,7 +5,7 @@ public class DoubleNodeMain {
     static DoubleLinkedList root;
     public static void main(String[] args) throws FileNotFoundException{
         root = new DoubleLinkedList();
-        root.loadFromFile(new File("numbers1.txt"));
+        root.loadFromFile(new File("numbers-2.txt"));
         System.out.println(root.toString());
 
         root.insertionSort();
